@@ -5,8 +5,7 @@
 //  Created by Artem Sulzhenko on 09.09.2023.
 //
 
-//import Foundation
-import UIKit
+import Foundation
 
 struct Cat: Codable {
     let id: String
