@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		068051072AACCC1700E8A3C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068051062AACCC1700E8A3C8 /* AppDelegate.swift */; };
 		068051092AACCC1700E8A3C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068051082AACCC1700E8A3C8 /* SceneDelegate.swift */; };
-		0680510B2AACCC1700E8A3C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0680510A2AACCC1700E8A3C8 /* ViewController.swift */; };
-		0680510E2AACCC1700E8A3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0680510C2AACCC1700E8A3C8 /* Main.storyboard */; };
+		0680510B2AACCC1700E8A3C8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0680510A2AACCC1700E8A3C8 /* MainViewController.swift */; };
 		068051102AACCC1A00E8A3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0680510F2AACCC1A00E8A3C8 /* Assets.xcassets */; };
 		068051132AACCC1A00E8A3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068051112AACCC1A00E8A3C8 /* LaunchScreen.storyboard */; };
+		0680511C2AACCC6B00E8A3C8 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0680511B2AACCC6B00E8A3C8 /* Cat.swift */; };
+		0680511F2AACCD7B00E8A3C8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0680511E2AACCD7B00E8A3C8 /* NetworkManager.swift */; };
+		068051212AACD39900E8A3C8 /* CatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068051202AACD39900E8A3C8 /* CatCollectionViewCell.swift */; };
+		068051252AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068051242AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift */; };
+		068051272AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068051262AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift */; };
+		0680512A2AACF64E00E8A3C8 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068051292AACF64E00E8A3C8 /* CoverImageView.swift */; };
+		0680512C2AAE546C00E8A3C8 /* WikiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0680512B2AAE546C00E8A3C8 /* WikiDetailViewController.swift */; };
+		0680512E2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0680512D2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		068051032AACCC1700E8A3C8 /* Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068051062AACCC1700E8A3C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		068051082AACCC1700E8A3C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0680510A2AACCC1700E8A3C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0680510D2AACCC1700E8A3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0680510A2AACCC1700E8A3C8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0680510F2AACCC1A00E8A3C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		068051122AACCC1A00E8A3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		068051142AACCC1A00E8A3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0680511B2AACCC6B00E8A3C8 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		0680511E2AACCD7B00E8A3C8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		068051202AACD39900E8A3C8 /* CatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionViewCell.swift; sourceTree = "<group>"; };
+		068051242AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerViewModel.swift; sourceTree = "<group>"; };
+		068051262AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		068051292AACF64E00E8A3C8 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		0680512B2AAE546C00E8A3C8 /* WikiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiDetailViewController.swift; sourceTree = "<group>"; };
+		0680512D2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiDetailViewControllerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,86 @@
 		068051052AACCC1700E8A3C8 /* Cats */ = {
 			isa = PBXGroup;
 			children = (
-				068051062AACCC1700E8A3C8 /* AppDelegate.swift */,
-				068051082AACCC1700E8A3C8 /* SceneDelegate.swift */,
-				0680510A2AACCC1700E8A3C8 /* ViewController.swift */,
-				0680510C2AACCC1700E8A3C8 /* Main.storyboard */,
-				0680510F2AACCC1A00E8A3C8 /* Assets.xcassets */,
-				068051112AACCC1A00E8A3C8 /* LaunchScreen.storyboard */,
-				068051142AACCC1A00E8A3C8 /* Info.plist */,
+				068051222AACDD9B00E8A3C8 /* Module */,
+				0680511A2AACCC5A00E8A3C8 /* Model */,
+				0680511D2AACCD4500E8A3C8 /* Services */,
+				068051312AAE668000E8A3C8 /* Resources */,
+				068051302AAE661400E8A3C8 /* Supporting Files */,
 			);
 			path = Cats;
+			sourceTree = "<group>";
+		};
+		0680511A2AACCC5A00E8A3C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0680511B2AACCC6B00E8A3C8 /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0680511D2AACCD4500E8A3C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0680511E2AACCD7B00E8A3C8 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		068051222AACDD9B00E8A3C8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				068051232AACDDBF00E8A3C8 /* Main */,
+				0680512F2AAE5F4900E8A3C8 /* WikiDetail */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		068051232AACDDBF00E8A3C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				068051282AACF60100E8A3C8 /* Cell */,
+				0680510A2AACCC1700E8A3C8 /* MainViewController.swift */,
+				068051242AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		068051282AACF60100E8A3C8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				068051202AACD39900E8A3C8 /* CatCollectionViewCell.swift */,
+				068051262AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift */,
+				068051292AACF64E00E8A3C8 /* CoverImageView.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		0680512F2AAE5F4900E8A3C8 /* WikiDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0680512B2AAE546C00E8A3C8 /* WikiDetailViewController.swift */,
+				0680512D2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift */,
+			);
+			name = WikiDetail;
+			sourceTree = "<group>";
+		};
+		068051302AAE661400E8A3C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				068051062AACCC1700E8A3C8 /* AppDelegate.swift */,
+				068051082AACCC1700E8A3C8 /* SceneDelegate.swift */,
+				068051142AACCC1A00E8A3C8 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		068051312AAE668000E8A3C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0680510F2AACCC1A00E8A3C8 /* Assets.xcassets */,
+				068051112AACCC1A00E8A3C8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +212,6 @@
 			files = (
 				068051132AACCC1A00E8A3C8 /* LaunchScreen.storyboard in Resources */,
 				068051102AACCC1A00E8A3C8 /* Assets.xcassets in Resources */,
-				0680510E2AACCC1700E8A3C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +222,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0680510B2AACCC1700E8A3C8 /* ViewController.swift in Sources */,
+				0680511C2AACCC6B00E8A3C8 /* Cat.swift in Sources */,
+				0680510B2AACCC1700E8A3C8 /* MainViewController.swift in Sources */,
+				068051272AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift in Sources */,
+				0680511F2AACCD7B00E8A3C8 /* NetworkManager.swift in Sources */,
+				0680512A2AACF64E00E8A3C8 /* CoverImageView.swift in Sources */,
+				0680512C2AAE546C00E8A3C8 /* WikiDetailViewController.swift in Sources */,
+				068051252AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift in Sources */,
+				068051212AACD39900E8A3C8 /* CatCollectionViewCell.swift in Sources */,
 				068051072AACCC1700E8A3C8 /* AppDelegate.swift in Sources */,
+				0680512E2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift in Sources */,
 				068051092AACCC1700E8A3C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0680510C2AACCC1700E8A3C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0680510D2AACCC1700E8A3C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		068051112AACCC1A00E8A3C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +373,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5K8V44L2C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cats/Info.plist;
+				INFOPLIST_FILE = "Cats/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +400,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T5K8V44L2C;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cats/Info.plist;
+				INFOPLIST_FILE = "Cats/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
