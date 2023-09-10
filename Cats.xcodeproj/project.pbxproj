@@ -98,39 +98,10 @@
 		068051222AACDD9B00E8A3C8 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				068051232AACDDBF00E8A3C8 /* Main */,
-				0680512F2AAE5F4900E8A3C8 /* WikiDetail */,
+				06A2B8D42AAE6E8C008216B4 /* WikiDetail */,
+				06A2B8CF2AAE6DDE008216B4 /* Main */,
 			);
 			path = Module;
-			sourceTree = "<group>";
-		};
-		068051232AACDDBF00E8A3C8 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				068051282AACF60100E8A3C8 /* Cell */,
-				0680510A2AACCC1700E8A3C8 /* MainViewController.swift */,
-				068051242AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		068051282AACF60100E8A3C8 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				068051202AACD39900E8A3C8 /* CatCollectionViewCell.swift */,
-				068051262AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift */,
-				068051292AACF64E00E8A3C8 /* CoverImageView.swift */,
-			);
-			name = Cell;
-			sourceTree = "<group>";
-		};
-		0680512F2AAE5F4900E8A3C8 /* WikiDetail */ = {
-			isa = PBXGroup;
-			children = (
-				0680512B2AAE546C00E8A3C8 /* WikiDetailViewController.swift */,
-				0680512D2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift */,
-			);
-			name = WikiDetail;
 			sourceTree = "<group>";
 		};
 		068051302AAE661400E8A3C8 /* Supporting Files */ = {
@@ -150,6 +121,35 @@
 				068051112AACCC1A00E8A3C8 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		06A2B8CF2AAE6DDE008216B4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0680510A2AACCC1700E8A3C8 /* MainViewController.swift */,
+				068051242AACDDDF00E8A3C8 /* MainViewControllerViewModel.swift */,
+				06A2B8D02AAE6E01008216B4 /* Cell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		06A2B8D02AAE6E01008216B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				068051202AACD39900E8A3C8 /* CatCollectionViewCell.swift */,
+				068051262AACE21400E8A3C8 /* CatCollectionViewCellViewModel.swift */,
+				068051292AACF64E00E8A3C8 /* CoverImageView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		06A2B8D42AAE6E8C008216B4 /* WikiDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0680512B2AAE546C00E8A3C8 /* WikiDetailViewController.swift */,
+				0680512D2AAE5A7200E8A3C8 /* WikiDetailViewControllerViewModel.swift */,
+			);
+			path = WikiDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -54,7 +54,6 @@ class WikiDetailViewController: UIViewController {
 
     private func configureNavigationBar() {
         navigationController?.navigationBar.topItem?.backButtonTitle = "Back"
-        navigationController?.navigationBar.tintColor = .brown
         navigationItem.title = "Wiki Cat"
         navigationItem.largeTitleDisplayMode = .never
     }
